@@ -1,5 +1,7 @@
 <script setup>
-   import ToDoVue from './components/ToDoVue.vue'
+  import ToDoVue from './components/ToDoVue.vue'
+  import ToDoVue2 from './components/ToDoVue2.vue'
+
 </script>
 
 <template>
@@ -9,8 +11,11 @@
   </header>
 
   <main>
-    <ToDoVue />
+    <!-- <ToDoVue /> -->
+    <ToDoVue2 />
+
   </main>
+
 </template>
 
 <style scoped>
@@ -22,5 +27,4 @@
     display: block;
     margin: 0 auto 2rem;
   }
-
 </style>
