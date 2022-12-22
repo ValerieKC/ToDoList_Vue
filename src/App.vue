@@ -11,8 +11,8 @@
   </header>
 
   <main>
-    <!-- <ToDoVue /> -->
-    <ToDoVue2 />
+    <ToDoVue />
+    <!-- <ToDoVue2 /> -->
 
   </main>
 
