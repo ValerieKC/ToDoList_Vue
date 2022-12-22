@@ -27,5 +27,6 @@ coverage
 *.sln
 *.sw?
 
-ToDoItem.vue
-ToDoVue.vue
+
+/src/ToDoItem.vue
+/src/ToDoVue.vue
