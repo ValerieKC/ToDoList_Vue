@@ -1,7 +1,7 @@
 <template>
   <div class="list-todo-item">
-    <div class="list-todo-text" :class="{strikeout:isDone}" @click="toggleDoneState">{{item.text}}</div>
-    <button class="remove-todo-btn" @click="deleteItem(item.id)">-</button>
+    <div class="list-todo-text">{{item.text}}</div>
+    <button class="remove-todo-btn">-</button>
   </div>
 </template>
 

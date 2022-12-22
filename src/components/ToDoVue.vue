@@ -2,11 +2,11 @@
   <div class="wrapper">
     <div class="title">Vue ToDo List</div>
     <div class="list-item-panel">
-      <ToDoItem v-for="item in list" :item="item" :key="item.text" @delete="onDeleteItem" />
+      <ToDoItem  />
     </div>
     <div class="input-panel">
-      <input type="string" placeholder="I need to..." v-model="toDo">
-      <button class="add-todo-btn" @click="createNewToDoItem">+</button>
+      <input type="string" placeholder="I need to...">
+      <button class="add-todo-btn">+</button>
     </div>
     <p>print:{{toDo}}</p>
   </div>
