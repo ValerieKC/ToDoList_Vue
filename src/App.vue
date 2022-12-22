@@ -1,6 +1,5 @@
 <script setup>
   import ToDoVue from './components/ToDoVue.vue'
-  import ToDoVue2 from './components/ToDoVue2.vue'
 
 </script>
 

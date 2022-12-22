@@ -28,5 +28,3 @@ coverage
 *.sw?
 
 
-/src/ToDoItem.vue
-/src/ToDoVue.vue
